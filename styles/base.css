@@ -50,7 +50,7 @@ p {
 }
 
 nav ul {
-    background-color: var(--right-black);
+    border: 2px solid var(--right-black);
     padding: .5rem;
     display: flex;
     justify-content: space-around;
@@ -60,13 +60,14 @@ nav ul {
 
 nav a {
     padding: 8px;
-    color: var(--white);
+    color: var(--right-blue);
     font-size: 1.2rem;
     text-decoration: none;
 }
 
 nav a:hover {
-    border: 1px solid var(--white);
+    border: 1px solid var(--right-black);
+    background-color: var(--yellow);
     border-radius: 5px;
 }
 
