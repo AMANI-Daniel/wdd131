@@ -1,122 +1,149 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-:root{
+
+:root {
     --right-blue: #1d4d72;
     --white: #fff;
     --right-black: #333333;
     --border-color: rgb(209, 207, 207);
+    --yellow: yellow;
 }
-body{
+
+body {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     width: 100%;
     margin: 0 auto;
 }
-header, footer{
-    background-color: var(--right-blue);
+
+header {
+    width: 100%;
 }
 
-header span{
+main {
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+header span {
+    background-color: var(--right-blue);
     display: block;
     padding: 1.3rem;
     color: var(--white);
     text-align: center;
     font-size: 1.5rem;
 }
+
 h1 {
     font-weight: 100;
     padding: 1rem;
     text-align: center;
 }
-p{
+
+p {
     line-height: 1.5;
     margin-top: 10px;
 }
-nav{
+
+nav {
     background-color: var(--right-black);
     padding: .5rem;
 }
-nav ul{
+
+nav ul {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     list-style: none;
 }
-nav a{
+
+nav a {
     padding: 8px;
     color: var(--white);
     font-size: 1.2rem;
-    text-decoration: none;  
+    text-decoration: none;
 }
-nav a:hover{
+
+nav a:hover {
     border: 1px solid var(--white);
     border-radius: 5px;
 }
-.cards{
-    max-width: 90%;
-    margin: 0 auto;
+
+.cards {
     display: grid;
     gap: 1.5rem;
     grid-template-columns: 2fr 1fr;
 }
 
-section{
+section {
     border: 1px solid var(--border-color);
     border-radius: 10px;
     padding: 10px;
 }
-h2{
+
+h2 {
     background-color: var(--right-blue);
     padding: 10px;
     color: var(--white);
     text-align: center;
     font-size: 1rem;
-    border-radius: 5px;   
+    border-radius: 5px;
 }
-.profile, .country{
+
+.profile,
+.country {
     padding: 1rem;
 
 }
-.profile img{
+
+.profile img {
     float: right;
     margin: 5px;
 }
-h3{
+
+h3 {
     text-align: center;
     padding: 10px;
     margin-bottom: 15px;
     max-width: 550px;
-    border-bottom:1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
 }
-.country img{
-    margin: 0 10px;  
+
+.country img {
+    margin: 0 10px;
     border-radius: 5px;
-    
-   
+
+
 }
-figure{
+
+figure {
     float: left;
-    border: 1px solid  var(--border-color);
+    border: 1px solid var(--border-color);
     border-radius: 5px;
     padding: 10px;
     margin: 0 10px;
 }
-.resources{
+
+.resources {
     padding: 1.2em;
 }
-.resources li{
+
+.resources li {
     padding: 5px;
 }
 
-.last{
-    color: yellow;
+.last {
+    color: var(--yellow);
 }
-footer{
+
+footer {
+    background-color: var(--right-blue);
+    padding: 10px;
     text-align: center;
     color: var(--white);
     margin-top: 20px;
-    padding: 5px;
 }
