@@ -20,15 +20,24 @@ header{
     align-items: center;
 }
 span{
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: 500;
-    text-align: center  ;
+    text-align:center;
+}
+#menu{
+    text-decoration: none;
+    color: white;
+    margin-left: 2rem;
+}
+#menu::before{
+    content: "≡";
 }
 
-nav ul li{
+.navigation li{
+    display: none;
     list-style: none;
 }
-nav a{
+.navigation a{
     display: block;
     padding: .5rem;
     color: white;
@@ -39,8 +48,13 @@ nav a:hover{
     border: 1px solid white;
     border-radius: 5px;
 }
-.active{
-    color: yellow;  
+
+.open li{
+    display: block;
+}
+
+#menu.open::before{
+    content: "❌";
 }
 
 /*Stying the main and its element*/
@@ -60,7 +74,7 @@ h1{
     gap: 25px;
 }
 img{
-    width: 300px;
+    width: 250px;
     border-radius: 5px;
 }
 /*Styling to footer*/
@@ -70,4 +84,9 @@ footer{
     color: white;
     text-align: center;
     margin-top: 1rem;
+}
+
+footer span{
+    font-size: 1rem;
+    color: yellow;
 }
