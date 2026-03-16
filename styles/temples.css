@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+
+}
+
+/*Styling the header and its elements*/
+
+header{
+    display: grid;
+    gap: 10px;
+    background-color: navy;
+    color: white;
+    padding: 1rem;
+    align-items: center;
+}
+span{
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center  ;
+}
+
+nav ul li{
+    list-style: none;
+}
+nav a{
+    display: block;
+    padding: .5rem;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+nav a:hover{
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.active{
+    color: yellow;  
+}
+
+/*Stying the main and its element*/
+main{
+    max-width: 800px;
+    margin:  0 auto;
+}
+
+h1{
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+.figures{
+    display: grid;
+    text-align: center;
+    gap: 25px;
+}
+img{
+    width: 300px;
+    border-radius: 5px;
+}
+/*Styling to footer*/
+
+footer{
+    background-color: navy;
+    color: white;
+    text-align: center;
+    margin-top: 1rem;
+}
