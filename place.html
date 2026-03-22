@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rwanda</title>
+    <meta name="description" content="This is about my country, and it use valid HTML, CSS and javascrpt to make it responsive and user friendly.">
+    <meta name="author" content="AMANI Daniel">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <script src="scripts/place.js" defer></script>  
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Rwanda</h1>
+    </header>
+    <main>
+        <picture>
+            <source srcset="images/hero-large.webp" media="(min-width: 640px)">
+            <img src="images/hero.webp" alt="The image of favorite place in Rwanda." width="500" height="250">
+        </picture>
+       <section class="data">
+        <h2>Data</h2>
+        <p> Area:<span>26,338 km²</span></p>
+        <p>Population:<span>14.78 Millions</span></p>
+        <p>Capital:<span>Kigali</span></p>
+        <p>Language:<span>Kinyarwanda</span></p>
+        <p>Currency:<span>Rwandan Franc</span></p>
+        <p>Time Zone:<span>UTC+2</span></p>
+        <p>Calling Code:<span>+250</span></p>
+        <p>Intrenet TLD:<span>.rw</span></p>
+       </section>
+       <section class="weather">
+
+        <h2>Weather</h2>
+        <img src="images/icon.svg" alt="">
+    
+        <p>Temperature: <span id="temp"></span></p>
+        <p>Condition: <span id="condition"></span></p>
+        <p>Wind: <span id="wind"></span></p>
+        <p>Wind Chill:  <span id="windChill"></span></p>
+       </section>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentyear"></span>💐 AMANI Daniel 💐 Rwanda</p>
+        <p>Last Modificaation: <span id="lastmodified"></span></p>
+    </footer>
+</body>
+</html>

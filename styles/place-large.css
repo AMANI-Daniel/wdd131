@@ -1,0 +1,33 @@
+@media (min-width: 650px) {
+    :root{
+        --green: rgb(38, 99, 38);
+        --white: white;
+    }
+    main{
+        position: relative;
+    }   
+    
+    .data{
+        position: absolute;
+        top: 30px;
+        left: 30px;
+    }
+    .weather{
+        position: absolute;
+        bottom: 30px;
+        right: 30px;
+    }
+    h2{
+        background-color: var(--green);
+        color: var(--white);
+        padding: 5px;
+        text-align: left;
+        
+    }
+    /* .head-icon{
+        background-color: var(--green);
+        display: flex;
+        align-items: center;
+
+    } */
+}
