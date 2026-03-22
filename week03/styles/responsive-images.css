@@ -1,0 +1,11 @@
+/* .hero img {
+    width: 100%;
+    height: auto;
+} */
+
+/*The second CSS is the same as the first one, but it is not good practice to use it.*/
+.hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
