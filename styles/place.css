@@ -45,9 +45,9 @@ h2{
     margin: 10px;
     font-size: 1.5rem;
 }
-.head-icon{
-    display: block;
-}
+ .head-icon::after {
+     content: url(../images/icon.svg);
+ }
 
 p{
     font-weight: 700;
