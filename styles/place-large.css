@@ -24,10 +24,17 @@
         text-align: left;
         
     }
-    /* .head-icon{
+    .head-icon{
         background-color: var(--green);
         display: flex;
         align-items: center;
 
-    } */
+    }
+/* .head-icon img::before {
+    font-size: 1rem;
+}
+
+.head-icon img::after {
+    content: "❌";
+} */
 }

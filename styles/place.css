@@ -45,6 +45,10 @@ h2{
     margin: 10px;
     font-size: 1.5rem;
 }
+.head-icon{
+    display: block;
+}
+
 p{
     font-weight: 700;
     font-size: 1.1rem;
