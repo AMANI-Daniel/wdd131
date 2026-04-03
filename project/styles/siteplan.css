@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Robboto, sans-serif;
+    
+}
+h1{
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: .8rem;
+    margin: 1.5rem;
+    border-radius: 5px;
+}
+h1,h2{
+    font-family: Arial, Helvetica, sans-serif;    
+}
+h2{
+    color: navy;
+}
+p, li{
+    padding: 5px 0;
+    
+}
+.num{
+    font-weight: 700;
+}
+section{
+    background-color: aliceblue;
+    margin: 1.5rem;
+    padding: 1.5rem;
+    border: 1px solid green;
+    border-radius: 5px;
+}
+.image{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    text-align: center;
+}
