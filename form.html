@@ -21,16 +21,16 @@
     <main>
         <form method="get" action="review.html" class="rfm">
 
-           <section class="form-item">
+           <div class="form-item">
                 <label for="product">Product Name*</label>
                 <select name="products" id="product" required>
-                    <option selected disabled>Select a Product</option>
+                    <option value="" disabled>Select a Product</option>
                 </select>
-           </section>
+           </div>
             
 
 
-            <section class="form-item">
+            <div class="form-item">
                 <div>Overall Rating*</div>
                <div class="radio">
                     <div class="choose">
@@ -58,16 +58,16 @@
                         <label for="fivestars">&star;&star;&star;&star;&star;</label>
                     </div>
                </div>
-            </section>
+            </div>
             
 
-            <section class="form-item">
+            <div class="form-item">
                 <label for="date">Date Of Installation*</label>
                 <input type="date" id="date" name="date" required>
-            </section>
+            </div>
             
 
-           <section class="form-item">
+           <div class="form-item">
                 <div>Which features did you find useful in the product</div>
                 <div>(Check all that apply)</div>
 
@@ -91,19 +91,19 @@
                     <input type="checkbox" id="performance" name="performance" value="yes">
                     <label for="performance">Performance</label>
                 </div>
-           </section>
+           </div>
             
 
-            <section class="form-item">
+            <div class="form-item">
                 <label for="review">Written Review (Optional)</label>
                 <textarea name="review" id="review" rows="5"></textarea>
-            </section>
+            </div>
             
 
-            <section class="form-item">
+            <div class="form-item">
                 <label for="username">User Name (Optional) </label>
                 <input type="text" name="username" id="username">
-            </section>
+            </div>
             
 
             <input type="submit" value="Post Review">
