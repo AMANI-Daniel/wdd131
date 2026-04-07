@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Review</title>
+    <meta name="description" content="This form demonstrate responsive form which has interactivity features and user friendly.">
+    <meta name="author" content="AMANI Daniel">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="styles/form-large.css">
+    <script src="scripts/form.js" defer></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Product Review</h1>
+    </header>
+    <main>
+        <form method="get" action="review.html" class="rfm">
+
+           <section class="form-item">
+                <label for="products">Product Name*</label>
+                <select name="products" id="product" required>
+                    <option selected disabled>Select a Product</option>
+                </select>
+           </section>
+            
+
+
+            <section class="form-item">
+                <div>Overall Rating*</div>
+               <div class="radio">
+                    <label>&star;<input type="radio" id="onestar" name="stars" required></label>
+                    <label>&star;&star;<input type="radio" id="twostars" name="stars" required></label>
+                    <label>&star;&star;&star;<input type="radio" id="threestars" name="stars" required></label>
+                    <label>&star;&star;&star;&star;<input type="radio" id="fourstars" name="stars" required></label>
+                    <label>&star;&star;&star;&star;&star;<input type="radio" id="fivestars" name="stars" required></label>
+               </div>
+            </section>
+            
+
+            <section class="form-item">
+                <label for="date">Date Of Installation*</label>
+                <input type="date" id="date" name="date" required>
+            </section>
+            
+
+           <section class="form-item check">
+                <div>Which features did you find useful in the product</div>
+                <div>(Check all that apply)</div>
+                <label><input type="checkbox" id="design" name="design" value="yes">Design</label>
+                <label><input type="checkbox" id="durability" name="durability" value="yes">Durability</label>
+                <label><input type="checkbox" id="use" name="use" value="yes">Easy of Use</label>
+                <label><input type="checkbox" id="performance" name="performance" value="yes">Performance</label>
+           </section>
+            
+
+            <section class="form-item">
+                <label for="review">Written Review (Optional)</label>
+                <textarea name="review" id="review" rows="5"></textarea>
+            </section>
+            
+
+            <section class="form-item">
+                <label for="username">User Name (Optional) </label>
+                <input type="text" name="username" id="username">
+            </section>
+            
+
+            <input type="submit" value="Post Review">
+        </form>
+    </main>
+    <footer>
+        <P>&copy;<span id="currentyear"></span> 💐 AMANI Daneil 💐 Rwanda</P>
+        <p>Last Modification: <span id="lastmodified"></span></p>
+    </footer>
+</body>
+</html>

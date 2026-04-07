@@ -1,0 +1,14 @@
+@media  (min-width: 650px) {
+    .rfm{
+        width: 700px;
+    }
+    input[type="text"],
+    input[type="date"],
+    select,
+    textarea,
+    input[type="submit"],
+    .radio
+    {
+        width: 80%;
+    }
+}
