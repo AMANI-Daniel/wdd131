@@ -5,6 +5,7 @@
 }
 body{
     font-family: "Roboto", sans-serif;
+    font-weight: 400;
 }
 header, footer{
     background-color:rgb(4, 15, 52);
@@ -58,10 +59,7 @@ input[type="checkbox"] {
 }
 
 
-.radio{
-    display: flex;
-    justify-content: space-around;
-}
+
 
 input[type="submit"]{
     padding: .75rem;
