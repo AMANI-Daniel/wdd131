@@ -48,5 +48,3 @@ if (visitedNum >= 0) {
 }
 localStorage.setItem("reviewed", visitedNum);
 
-
-
