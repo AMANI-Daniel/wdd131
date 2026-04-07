@@ -11,4 +11,13 @@
     {
         width: 80%;
     }
+    .radio{
+        display: flex;
+        flex-direction: row;
+    }
+    input[type="radio"]{
+        display: block;
+        width: 100%;
+    }
+
 }
