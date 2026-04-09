@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif;
+}
+ header {
+     display: flex;
+     flex-direction: column;
+     margin-top: .5rem;
+ }
+
+header img{
+    width: 300px;
+    height: auto;
+    margin: auto;
+    border-radius: 10px;
+
+}
+/*style the top nav*/
+.top-menu{
+    display: flex;
+}
+.top-nav {
+    display: block;
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin: auto;
+    
+}
+#menu{
+    font-size: 2rem;
+    margin: auto;
+}
+
+#menu::before{
+    content: "≡";
+}
+
+/*style the nav element*/
+nav{
+    display: flex;    
+}
+.navigation{
+    background-image: linear-gradient(rgb(14, 239, 14), rgb(5, 45, 5));
+    padding: 5px;
+    display: flex;
+    width: 100%;
+    display: none;  
+}
+.navigation li{
+    padding: 5px;
+    margin: auto;
+    list-style: none;
+    
+}
+
+.navigation li a{
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+    padding: 5px;
+    text-align: center;
+    display: block;
+
+}
+
+.navigation a:hover{
+    border: 2px solid white;
+    border-radius: 5px;
+
+}
+
+.open, .navigation li{
+    display: block;
+}
+#menu.open::before{
+    content: "❌";
+}
+
+/*styling the footer*/
+
+footer {
+    display: block;
+    text-align: center;
+    background-color: aliceblue;
+    padding: 5px;
+}
+.pragra p {
+    padding: 3px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+ .imag {
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     padding: 5px;
+ }
+
+
+

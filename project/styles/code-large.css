@@ -1,0 +1,57 @@
+@media (min-width: 650px) {
+
+header {
+        padding: .5rem;
+        background-color: aliceblue;
+        display: grid;
+        grid-template-columns: 400px 1fr;
+        margin: .5rem;
+    }
+header img {
+    width: 300px;
+    height: auto;
+    margin: auto;
+    border-radius: 10px;
+
+}
+   .top-nav{
+    display: block;
+   }
+
+   h1 {
+       text-align: center;
+       padding: 5px;
+       color: navy;
+   }
+
+   #menu{
+    display: none;
+   }
+   .navigation{
+    display: flex;
+    flex-wrap: wrap;
+   }
+   /*Styling footer*/
+   footer {
+       background-color: aliceblue;
+       display: grid;
+       grid-template-columns: 3fr 1fr;
+       padding: .5rem;
+        margin: .5rem;
+   }
+
+   .pragra p {
+       padding: 5px;
+       font-size: 1.2rem;
+       text-align: center;
+   }
+
+   .imag {
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+   }
+
+   
+    
+}
