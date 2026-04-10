@@ -19,7 +19,7 @@ header img{
     border-radius: 10px;
 
 }
-/*style the top nav*/
+/*--------------------style the top-nav class------------------*/
 .top-menu{
     display: flex;
 }
@@ -41,7 +41,7 @@ h1 {
     content: "≡";
 }
 
-/*style the nav element*/
+/*---------------------style the nav element-------------------*/
 nav{
     display: flex;    
 }
@@ -82,7 +82,8 @@ nav{
     content: "❌";
 }
 
-/*styling the footer*/
+
+/*------------------styling the footer-----------------------------*/
 
 footer {
     display: block;
@@ -102,5 +103,37 @@ footer {
      padding: 5px;
  }
 
+
+/*--------------Styling the main element of the body of the index.html-------------------*/
+
+
+main{
+    margin: .5rem;
+}
+ .main-frame {
+     display: none;
+ }
+
+.main-ima img{
+    width: 100%;
+    height: auto;
+}
+
+.main-ima p{
+    
+    padding: 5px;
+    margin: 10px auto;
+    font-size: 1.5rem;
+    background-color: aliceblue;
+    border-radius: 5px;
+    color: black;
+}
+
+.main-ima a{
+    background-image: linear-gradient(rgb(14, 239, 14), rgb(5, 45, 5));
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
 
 
