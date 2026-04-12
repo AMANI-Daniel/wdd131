@@ -4,9 +4,12 @@
     box-sizing: border-box;
 }
 body{
+    width: 100%;
+    margin: 0 auto;
     font-family: "Roboto", sans-serif;
 }
  header {
+    border-radius: 10px;
      display: flex;
      flex-direction: column;
      margin-top: .5rem;
@@ -83,13 +86,14 @@ nav{
 }
 
 
-/*------------------styling the footer-----------------------------*/
+/*------------------styling the FOOTER-----------------------------*/
 
 footer {
     display: block;
     text-align: center;
     background-color: aliceblue;
     padding: 5px;
+    border-radius: 10px;
 }
 .pragra p {
     padding: 3px;
@@ -104,36 +108,147 @@ footer {
  }
 
 
-/*--------------Styling the main element of the body of the index.html-------------------*/
-
+/*--------------Styling the MAIN of the INDEX.HTML-------------------*/
 
 main{
+    display: block;
     margin: .5rem;
 }
- .main-frame {
-     display: none;
- }
-
-.main-ima img{
+picture img{
     width: 100%;
     height: auto;
 }
 
-.main-ima p{
-    
+.main-content p{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    text-align: center;
     padding: 5px;
-    margin: 10px auto;
-    font-size: 1.5rem;
-    background-color: aliceblue;
-    border-radius: 5px;
-    color: black;
+    
 }
 
-.main-ima a{
+.why{
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: aliceblue;
+    margin: 1rem auto;
+}
+
+
+/*--------------Styling the MAIN of  the REGISTRATION.HTML-------------------*/
+
+
+.regis{
+    padding: .5rem;
+    text-align: center;
+    
+    margin: 1rem auto;
+    border-radius: 5px;
+    font-size: 1.5rem;
+
+}
+
+form{
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: .5rem;
+    box-shadow: 1px 1px 5px grey;
+
+    
+}
+
+fieldset{
+    padding: .5rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+input[type="text"],
+input[type="email"],
+select
+{
+    display: block;
+    width: 100%;
+    padding: .75rem;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.part{
+    margin: 1rem 0;
+}
+label{
+    font-size: 1.2rem;
+}
+
+legend {
+    font-size: 1.5rem;
+    margin-left: 1.3rem;
+    color: navy;
+    font-style: italic;
+}
+
+input[type="submit"]{
+    font-size: 1.5rem;
+    padding: .75rem;
+    width: 200px;
     background-image: linear-gradient(rgb(14, 239, 14), rgb(5, 45, 5));
     color: white;
-    padding: 5px;
+    border: none;
+    border-radius: .5rem;
+    cursor: pointer;
+    margin: 0 2%;
+}
+
+/*------------STYLE THE MAIN OF ABOUT.HTML-----------*/
+
+ .mission-content img {
+     width: 100%;
+     height: auto;
+ }
+.mission-content{
+    margin: 1rem 0;
+    display: grid;
+}
+
+.mission h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: .5rem;
+    color: navy;
+    border-radius: 5px;
+    margin: .5rem;
+}
+.mission{
+    border: 1px solid grey;
+    padding: .5rem;
+    font-size: 1.1rem;
+    margin: .5rem 0;
     border-radius: 5px;
 }
 
+.mission li{
+    margin: .5rem 0 .5rem 2rem;
+    padding: 5px;
+}
 
+.cour{
+    border: 1px solid grey;
+    padding: .5rem;
+    border-radius: 5px;
+}
+.cour h2{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    color: navy;
+    font-size: 1.5rem;
+}
+
+.cour li{
+    color: navy;
+    margin: .5rem 0 .5rem 2rem;
+}
+.cour p{
+    font-size: 1.2rem;
+}

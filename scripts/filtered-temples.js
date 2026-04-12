@@ -135,7 +135,7 @@ oldTemples.addEventListener("click", () => {
     createTempleCard(temples.filter(temple => parseInt(temple.dedicated.split(",")[0]) < 1900));
 })
      
-function createTempleCard(filteredTemples) {
+function createTempleCard(filteredTemples) {    
         document.querySelector('.figures').innerHTML = " ";
         filteredTemples.forEach((temple) => {
         let card = document.createElement('section');

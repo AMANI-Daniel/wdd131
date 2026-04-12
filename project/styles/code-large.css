@@ -33,7 +33,7 @@ header img {
    }
 
 
-   /*-------------------------Styling footer-----------------------*/
+   /*-------------------------Styling FOOTER-----------------------*/
    footer {
        background-color: aliceblue;
        display: grid;
@@ -55,49 +55,59 @@ header img {
    }
 
 
-   /*---------------------Styling the main element of the body of the index.html--------*/
+   /*---------------------Styling the MAIN of the INDEX.HTML--------*/
 
-    main{
-        gap: 1rem;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-    .why{
-        grid-column: 1/3;
-    }
-    .main-frame{
-        display: block  ;
-    }
-    h2 {
-        text-align: center;
-        padding: .5rem;
-        background-color: aliceblue;
-        color: black;
-        margin-bottom: 1rem;
-        border-radius: 5px;
-    }
 
-    .main-ima img{
-        width: 100%;
-        height: auto;
-    }
-    .main-ima{
+    .main-content{
         position: relative;
     }
-    .main-ima p{
+   .main-content p{
         position: absolute;
-        top: 7rem;
-        left: 9rem
-    }
-    .why{
-        font-size: 1.2rem;
-        text-align: center;
-    }
+        background-color: aliceblue;
+        color: black;
+        padding: 10px;
+        font-size: 1.3rem;
+   } 
+   .join{
+        top: 10%;
+        left: 40%;
+   }   
+   .why{
+        bottom: 10%;
+        left: 10%;
+        width: 80%;
 
-       
+   }
+            
+   /*----------Style the MAIN of the REGISTRATION.HTML-----------*/
+   .regis{
+    width: 60%;
+   }
+   form{
+        width: 60%;
+        margin: 0 auto;
+   }
 
-
-
+   input[type="text"],
+   input[type="email"],
+   select
+   {
+    width: 80%;
+   }
    
+   input[type="submit"]{
+        width: 76%;
+   }
+
+   /*------------STYLE THE MAIN OF ABOUT.HTML------------*/
+
+  .mission-content{
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+  .mission-content img{
+    padding: 10px;
+  }
+
     
 }
