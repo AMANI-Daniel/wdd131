@@ -55,9 +55,12 @@ function createSelectOptions() {
 }
 const local = document.querySelector('local');
 
-let numVisits = Number(window.localStorage.getItem('visits')) || 0;
+createLocalStarage();
+
+function createLocalStarage() {
+    let numVisits = Number(window.localStorage.getItem('visits')) || 0;
+    numVisits++;
+    localStorage.setItem('visits', numVisits);
+}
 
 
-numVisits++;
-
-localStorage.setItem('visits', numVisits);
