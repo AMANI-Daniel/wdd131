@@ -252,3 +252,9 @@ input[type="submit"]{
 .cour p{
     font-size: 1.2rem;
 }
+
+.thank{
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 2rem;
+}
